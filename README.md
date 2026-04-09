@@ -1,21 +1,20 @@
 # Clearness
 
-Clearness is a daily journaling app built to help you reflect and track your mood over time. Each day you get one conversation: pick how you're feeling, write your thoughts, and receive an AI-generated            
-  acknowledgment. <br><br>Past entries are saved to a calendar so you can revisit any day and see your mood history at a glance. Authentication is handled via Google or Apple, no passwords required. 
+Clearness is a daily journaling app built to help you reflect and track your mood over time. Each day you get one conversation: pick how you're feeling, write your thoughts, and receive an AI-generated  acknowledgment. <br><br>Past entries are saved to a calendar so you can revisit any day and see your mood history at a glance. Authentication is handled via Google or Apple, no passwords required. 
 
 
 Clearness is a full-stack web application built with Django (REST API) and React (Vite).
   <table>                                                                                                                                                                                                              
     <tr>                                                                                                                                                                                                               
-      <td><img src="media/chat.png" width="300"/></td>                                                                                                                                                             
-      <td><img src="media/calendar.png" width="300"/></td>
-      <td><img src="media/stats.png" width="300"/></td>                                                                                                                                                             
+      <td><img src="media-readme/chat.png" width="300"/></td>                                                                                                                                                             
+      <td><img src="media-readme/calendar.png" width="300"/></td>
+      <td><img src="media-readme/stats.png" width="300"/></td>                                                                                                                                                             
     </tr>    
                                                                                                                                                                                              
   </table> 
 
   <p align="center">                                                                                                                                                                                                   
-    <img src="media/using-the-app.gif" width="300"/>                                                                                                                                                                         
+    <img src="media-readme/using-the-app.gif" width="300"/>                                                                                                                                                                         
   </p>                                                                                                                                                                                                                 
        
 
