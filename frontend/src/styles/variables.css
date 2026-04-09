@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #2d8ab0;
+  --color-text: #1a1a1a;
+  --color-subtitle: #888;
+  --color-border: #ddd;
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f2f3f5;
+  --color-error: #e55;
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --radius-button: 14px;
+  --radius-bubble: 18px;
+  --max-width-mobile: 375px;
+}

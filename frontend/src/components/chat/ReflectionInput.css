@@ -1,0 +1,58 @@
+.reflection-input {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+  padding: 12px 0 4px;
+  flex-shrink: 0;
+}
+
+.reflection-input__field {
+  flex: 1;
+  resize: none;
+  border: 1.5px solid var(--color-border);
+  border-radius: 16px;
+  padding: 10px 14px;
+  font-size: 15px;
+  font-family: inherit;
+  line-height: 1.4;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.reflection-input__field:focus {
+  border-color: var(--color-primary);
+}
+
+.reflection-input__field::placeholder {
+  color: var(--color-subtitle);
+}
+
+.reflection-input__field:disabled {
+  opacity: 0.5;
+}
+
+.reflection-input__send {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: opacity 0.2s;
+}
+
+.reflection-input__send:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.reflection-input__send:not(:disabled):hover {
+  opacity: 0.85;
+}

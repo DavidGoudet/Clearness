@@ -1,0 +1,32 @@
+.journal-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.journal-page__header {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 4px 0 8px;
+  flex-shrink: 0;
+}
+
+.journal-page__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: var(--color-subtitle);
+  font-size: 16px;
+}
+
+.journal-page__error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: var(--color-error);
+  font-size: 15px;
+  text-align: center;
+  padding: 16px;
+}
